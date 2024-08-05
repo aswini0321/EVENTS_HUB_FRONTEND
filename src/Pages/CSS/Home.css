@@ -1,6 +1,5 @@
   /* fontawesome importing */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
-
             .header {
               display: flex;
               justify-content: space-between;
@@ -38,7 +37,7 @@
               align-items: center;
               width: 100%;
               height: 520px;
-              background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://www.slideteam.net/media/catalog/product/cache/1280x720/1/1/1114_3d_colored_team_for_unity_and_teamwork_stock_photo_Slide01.jpg");
+              background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://c8.alamy.com/comp/2CA3WX9/event-word-and-splashs-2CA3WX9.jpg");
               background-size: cover;
               background-position: center;
               background-repeat: no-repeat;
@@ -76,8 +75,7 @@
               display: flex;
               justify-content: space-around;
               align-items: center;
-              padding: 40px 0px;
-          
+              padding: 40px 80px;
             }
 
             .achievements .work {
@@ -85,8 +83,7 @@
               flex-direction: column;
               justify-content: center;
               align-items: center;
-              padding-left: 30px;
-              margin-left: 0px;
+              padding: 0 40px;
             }
 
             .achievements .work i {
@@ -131,16 +128,14 @@
               display: flex;
               justify-content: space-between;
               align-items: center;
-              background-image:url("../../Components/Assets/Homes.png");
-              padding: 40px 80px;
-            
+              background-image:url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMjJiYXRjaDUta3VsLTA2LmpwZw.jpg");
+              padding: 20px 80px;
               background-size:100% 100%;
               background-repeat:no-repeat;
-            
             }
 
             .footer .copy {
-              color: #fff;
+              color:blue;
             }
 
             .bottom-links {
@@ -164,14 +159,14 @@
 
             .bottom-links .links span {
               font-size: 20px;
-              color: #fff;
+              color:blue;
               text-transform: uppercase;
               margin: 10px 0;
             }
 
             .bottom-links .links a {
               text-decoration: none;
-              color: #fff;
+              color:blue;
               padding: 10px 20px;
             }
             
