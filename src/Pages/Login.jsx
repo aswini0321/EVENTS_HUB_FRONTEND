@@ -23,7 +23,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("https://tech-connect-backend-7.onrender.com/login", formData, {
+      const response = await axios.post("https://events-hub-backend.onrender.com/login", formData, {
         headers: {
           "Content-Type": "application/json",
         }
